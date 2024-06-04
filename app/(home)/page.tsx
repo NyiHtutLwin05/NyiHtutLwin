@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
+import { Experience } from "./components/Experience";
 
 export default function Home() {
   return (
@@ -13,10 +14,11 @@ export default function Home() {
           <Navbar />
           <HeroSection />
         </div>
-        <div className="h-10 xl:h-40 bg-gradient-to-t from-black absolute -bottom-10 left-0 xl:bottom-0 w-full"></div>
+        {/* <div className="h-0 xl:h-40 bg-gradient-to-t from-black absolute -bottom-10 left-0 xl:bottom-0 w-full"></div> */}
       </div>
-      <div className="max-w-7xl mx-auto p-5 mt-20">
+      <div className="max-w-7xl mx-auto p-5 mt-36">
         <Skills />
+        <Experience />
         <Project />
         <Footer />
       </div>

@@ -18,7 +18,7 @@ import {
 const Skills = () => {
   const skills = [
     {
-      text: "Javascript",
+      text: "JS",
       Icon: SiJavascript,
     },
     {
@@ -30,7 +30,7 @@ const Skills = () => {
       Icon: SiCss3,
     },
     {
-      text: "Typescript",
+      text: "TS",
       Icon: SiTypescript,
     },
     {
@@ -55,10 +55,10 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-5xl mx-auto px-8 ">
       <Title
         text="Skills 🔪"
-        className="flex flex-col items-center justify-center -rotate-6"
+        className="flex flex-col items-center justify-center "
       />
       <HoverEffect items={skills} />
     </div>

@@ -18,9 +18,9 @@ const HeroSection = () => {
           Based in Myanmar, I&apos;m Frontend Developer passionate about
           building a mordern web application that users love.
         </p>
-        <Link href={"nyihtutlwin0205@gmail.com"} className="inline-block group">
+        {/* <Link href={"nyihtutlwin0205@gmail.com"} className="inline-block group">
           <Title text="Contact Me 📬" />
-        </Link>
+        </Link> */}
       </div>
       <div className="relative">
         <div className="space-y-2 rotate-[0deg] relative p-5">
@@ -41,7 +41,7 @@ const HeroSection = () => {
             <div className="w-32 h-32 rounded-2xl bg-green-500"></div>
             <div className="w-32 h-32 rounded-full bg-indigo-500"></div>
           </div> */}
-          <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
+          <div className="glow absolute top-[40%] right-1/2 -z-10 hidden"></div>
         </div>
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
           <MovingButtonBtn borderRadius="0.5rem" className="p-3 font-semibold">
