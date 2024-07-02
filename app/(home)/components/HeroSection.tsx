@@ -24,13 +24,13 @@ const HeroSection = () => {
       </div>
       <div className="relative">
         <div className="space-y-2 rotate-[0deg] relative p-5">
-          <div className="">
+          <div className="rounded-[100%]">
             <Image
-              src="/photo_2024-03-04_19-44-27.jpg"
+              src="/photo_2024-07-02 13.18.08.jpeg"
               alt="me"
               width={200}
-              height={100}
-              className="rounded-2xl"
+              height={200}
+              className="rounded-3xl"
             />
           </div>
           {/* <div className="flex gap-3 translate-x-8">
