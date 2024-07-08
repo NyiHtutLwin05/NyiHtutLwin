@@ -17,7 +17,7 @@ const Project = () => {
     {
       title: "Super Select - Glass & Aluminium",
       tech: [SiReact, SiMantine, SiGoogleanalytics, SiTailwindcss],
-      link: "https://www.superselectglass.com/",
+      link: "https://super-select-react-9p3fw9d7o-nyihtutlwin05.vercel.app/",
       cover: "/Screenshot from 2024-06-04 18-18-05.png",
       background: "bg-indigo-500",
     },
@@ -49,7 +49,8 @@ const Project = () => {
               <div className={cn("p-5 rounded-md", project.background)}>
                 <DirectionAwareHover
                   imageUrl={project.cover}
-                  className="w-full space-y-5 cursor-pointer">
+                  className="w-full space-y-5 cursor-pointer"
+                >
                   <div className="space-y-5">
                     <h1 className="text-2xl font-bold">{project.title}</h1>
                     <div className="flex items-center gap-5">
