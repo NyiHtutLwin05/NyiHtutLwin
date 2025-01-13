@@ -3,6 +3,7 @@ import React from "react";
 import Title from "./Title";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 import {
+  SiAstro,
   SiCss3,
   SiGit,
   SiHtml5,
@@ -13,6 +14,7 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiVuedotjs,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -22,6 +24,27 @@ const Skills = () => {
       Icon: SiJavascript,
     },
     {
+      text: "TS",
+      Icon: SiTypescript,
+    },
+    {
+      text: "React",
+      Icon: SiReact,
+    },
+    {
+      text: "Vue",
+      Icon: SiVuedotjs,
+    },
+    {
+      text: "Next.js",
+      Icon: SiNextdotjs,
+    },
+    {
+      text: "Astro",
+      Icon: SiAstro,
+    },
+
+    {
       text: "HTML",
       Icon: SiHtml5,
     },
@@ -29,14 +52,7 @@ const Skills = () => {
       text: "CSS",
       Icon: SiCss3,
     },
-    {
-      text: "TS",
-      Icon: SiTypescript,
-    },
-    {
-      text: "Next.js",
-      Icon: SiNextdotjs,
-    },
+
     {
       text: "Tailwind",
       Icon: SiTailwindcss,

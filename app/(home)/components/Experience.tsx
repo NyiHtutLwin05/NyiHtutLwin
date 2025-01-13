@@ -92,16 +92,16 @@ const dummyContent = [
     badge: "React, Tailwind",
   },
   {
-    title: "Full Time Frontend Developer",
+    title: "Full Time Frontend Developer at CirclesX (2022-2024)",
     description: (
       <>
         <p>
-          When I became a full-time frontend developer, I had the opportunity to
-          work with amazing seniors who shared their extensive knowledge and
-          experience. Their guidance was instrumental in my development as a
-          skilled frontend developer. I took on significant projects, improved
-          my problem-solving abilities, and enhanced my understanding of complex
-          frontend frameworks.
+          CirclesX was my first company as a junior developer, and it played a
+          crucial role in launching my career. The team’s guidance and support
+          helped me grow rapidly in a professional environment. I gained
+          hands-on experience in frontend development, and the mentorship I
+          received provided me with the skills and confidence needed to advance
+          in my career.
         </p>
         <br />
         <p>
@@ -114,5 +114,26 @@ const dummyContent = [
       </>
     ),
     badge: "React.JS, NEXT.JS, Postgres, SQL",
+  },
+  {
+    title: "Mid Level Frontend Developer at ConceptX (2024 - Present)",
+    description: (
+      <>
+        <p>
+          <p>
+            Currently, I am working on the LMS and SMS projects at ConceptX,
+            using Vue.js to build responsive, scalable applications. I focus on
+            developing key features, ensuring smooth user experiences, and
+            collaborating with cross-functional teams to meet project goals.
+            Additionally, I handle the integration of APIs, optimize app
+            performance, and troubleshoot issues to ensure a seamless experience
+            for end users. This role allows me to continuously expand my skills
+            while contributing to the success of the projects.
+          </p>
+        </p>
+        <br />
+      </>
+    ),
+    badge: "Vue.JS, VueX, Tailwind.css",
   },
 ];

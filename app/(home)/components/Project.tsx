@@ -1,6 +1,10 @@
 import React from "react";
 import {
+  SiAstro,
+  SiCss3,
   SiGoogleanalytics,
+  SiHtml5,
+  SiJavascript,
   SiMantine,
   SiNextdotjs,
   SiReact,
@@ -15,10 +19,31 @@ import { DirectionAwareHover } from "@/components/ui/direction-aware-hover";
 const Project = () => {
   const projects = [
     {
-      title: "Super Select - Glass & Aluminium",
-      tech: [SiReact, SiMantine, SiGoogleanalytics, SiTailwindcss],
-      link: "https://super-select-react-9p3fw9d7o-nyihtutlwin05.vercel.app/",
-      cover: "/Screenshot from 2024-06-04 18-18-05.png",
+      title: "POS",
+      tech: [SiNextdotjs, SiTailwindcss, SiCss3],
+      link: "https://pos-system-puce.vercel.app/",
+      cover: "/Screenshot 2025-01-13 at 9.43.49 PM.png",
+      background: "bg-indigo-500",
+    },
+    {
+      title: "Astro Echoes",
+      tech: [SiAstro, SiTailwindcss, SiCss3],
+      link: "https://astro-echoes.vercel.app/",
+      cover: "/Screenshot 2025-01-13 at 9.41.15 PM.png",
+      background: "bg-indigo-500",
+    },
+    {
+      title: "Curely",
+      tech: [SiNextdotjs, SiTailwindcss, SiTypescript],
+      link: "https://curely-dashboard.vercel.app/",
+      cover: "/Screenshot 2025-01-13 at 9.32.25 PM.png",
+      background: "bg-indigo-500",
+    },
+    {
+      title: "Tesla Configurator",
+      tech: [SiHtml5, SiCss3, SiTailwindcss, SiJavascript],
+      link: "https://tesla-configurator-three.vercel.app/",
+      cover: "/Screenshot 2025-01-13 at 9.47.33 PM.png",
       background: "bg-indigo-500",
     },
     {
@@ -28,6 +53,7 @@ const Project = () => {
       cover: "/Screenshot from 2024-06-04 11-39-27.png",
       background: "bg-indigo-500",
     },
+
     {
       title: "Jplus - Job Seeker",
       tech: [SiReact, SiNextdotjs, SiTailwindcss, SiTypescript],
