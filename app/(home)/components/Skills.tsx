@@ -32,6 +32,10 @@ const Skills = () => {
       Icon: SiReact,
     },
     {
+      text: "React Native",
+      Icon: SiReact,
+    },
+    {
       text: "Vue",
       Icon: SiVuedotjs,
     },
