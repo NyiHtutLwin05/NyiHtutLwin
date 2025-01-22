@@ -31,7 +31,7 @@ const Navbar = ({ className }: { className?: string }) => {
   ];
   return (
     <nav className={cn("py-10 flex justify-between items-center", className)}>
-      <h1 className="text-sm md:text-xl lg:text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
+      <h1 className="text-sm md:text-xl lg:text-2xl font-bold underline underline-offset-8 decoration-green-500 ">
         Nyi Htut Lwin👨‍💻
       </h1>
       <div className="flex items-center gap-5">
